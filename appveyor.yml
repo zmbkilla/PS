@@ -4,9 +4,7 @@ before_build:
 
 build:
   verbosity: minimal
-  
-build_script:
-- xcopy "%APPVEYOR_BUILD_FOLDER%\PolarisServer\Resources" "%APPVEYOR_BUILD_FOLDER%\PolarisServer\bin\Debug\Resources\" /s /h /e /k /f /c
+
   
   init:
   - git submodule update --init --recursive
