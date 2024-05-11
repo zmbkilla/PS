@@ -4,7 +4,5 @@ before_build:
 
 build:
   verbosity: minimal
-
   
-  init:
-  - git submodule update --init --recursive
+  
